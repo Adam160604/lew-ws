@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/Adam160604/lewws:latest
+            ghcr.io/adam160604/lewws:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
